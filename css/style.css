@@ -70,7 +70,7 @@ h2 {
 
 h3 {
     font-size: 21px;
-    color: #91ff00;
+    color: #00c3ff;
 }
 
 h4 {
@@ -94,6 +94,12 @@ a:hover, a:focus {
     outline: none;
     opacity: 0.8;
     color: #6195FF;
+}
+
+.marquesina {
+    background-size: cover;
+    background-color: rgb(51, 50, 59);
+    text-transform: lowercase;
 }
 
 .main-color {
@@ -128,7 +134,7 @@ ul, ol {
 
 .md-padding {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 
 .sm-padding {
@@ -1128,6 +1134,7 @@ header {
 
 .blog .blog-content {
     padding: 20px 20px 40px;
+    text-transform: none;
 }
 
 .blog .blog-meta {
