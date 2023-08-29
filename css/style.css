@@ -138,8 +138,8 @@ ul, ol {
 }
 
 .sm-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px; 
+    padding-bottom: 0px;
 }
 
 
@@ -1128,7 +1128,7 @@ header {
 \*------------------------------------*/
 
 .blog {
-    background-color: #FFF;
+    background-color: #ffF;
     margin: 15px 0px;
 }
 
@@ -1888,4 +1888,32 @@ header {
     padding: 20Px;
     background: #0d2c44;
     color: #fff;
+}
+
+/*marquesina */
+.marquee {
+    background-color: #1C1D21;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee-text {
+    position: center;
+    bottom: 0;
+    animation: marquee-animation 15s linear infinite;
+}
+
+.marquee:hover .marquee-text {
+    animation-play-state: paused;
+  }
+  
+@keyframes marquee-animation {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
